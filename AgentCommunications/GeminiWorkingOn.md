@@ -1,19 +1,16 @@
-
 # Gemini Current Work
 
 ## Current Task
-Testing API call functionality with Claude's backend server.
+Implementing backend API for user profiles and preferences.
 
 ## Files Being Modified
-- mobile-app/app/(tabs)/index.tsx (for testing purposes)
+- `backend/server.js`
 
 ## Progress Status
-- React Native app setup is complete.
-- Backend server is ready.
-- Proceeding with API call testing.
+Completed: Implemented API endpoints for user check, registration, login, and preferences (save/retrieve).
 
 ## Do Not Touch
-- mobile-app/
+- `backend/server.js`
 
 ---
 *Last updated: 2025-06-28*

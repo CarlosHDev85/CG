@@ -1,18 +1,18 @@
-
 # Gemini Comments
 
 ## Current Status
-I am now testing the API call functionality with Claude's backend server.
+Backend API for user profiles and preferences has been implemented.
 
 ## Important Notes
-The API call in `HomeScreen.tsx` is configured to `http://localhost:3000/api/status`.
+- Used `bcrypt` for password hashing.
+- User data is stored in-memory for now (in `users` object).
 
 ## Implemented Functionalities
-- Initialized React Native Expo project.
-- Set up React Navigation.
-- Created HomeScreen and ProfileScreen components.
-- Implemented API call functionality with a button.
-- Display server response on the HomeScreen.
+- `POST /api/user/check`: Checks if a username exists.
+- `POST /api/user/register`: Registers a new user.
+- `POST /api/user/login`: Logs in a user.
+- `POST /api/user/preferences`: Saves user preferences.
+- `GET /api/user/preferences/:username`: Retrieves user preferences.
 
 ---
 *Last updated: 2025-06-28*
